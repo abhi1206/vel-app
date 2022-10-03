@@ -7,7 +7,7 @@ pipeline {
 
          stages {
 
-           stage ('install apache'){
+          /* stage ('install apache'){
 
              steps {
 
@@ -21,7 +21,7 @@ pipeline {
                sh "service httpd start"     
 }
 }
-
+*/
           stage ('deploy index'){
 
              steps {
